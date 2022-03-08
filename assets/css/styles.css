@@ -1251,8 +1251,33 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+  .carousel-inner{
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 250px;
+  }
   .carousel-item1{
-    width: 2000px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 250px;
+  }
+  .carousel-item2{
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 250px;
+  }
+  .carousel-item3{
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 250px;
+  }
+  .carousel-item4{
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 250px;
+  }
+  .carousel-item5{
+    width: 1000px;
     margin-top: 100px;
     margin-left: 250px;
   }
