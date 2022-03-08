@@ -1103,23 +1103,21 @@ img {
     grid-template-columns: .6fr;
     justify-content: center;
   }
-  .carousel-inner{
-    width: 400px;
+  .carousel-inner {
+    width: 71%;
     margin-top: 300px;
-    margin-left: 225px;
-  }
+    margin-left: auto;
+    margin-right: auto;
+}
   .carousel-item1{
     width: 400px;
     margin-top: 100px;
-    margin-left: 50px;
   }
   .carousel-item2{
     width: 400px;
     margin-top: 100px;
-    margin-left: 50px;
   }
   .carousel-item3{
-    margin-left: 50px;
     margin-top: 100px;
     width: 50px;
   }
@@ -1129,12 +1127,10 @@ img {
   .carousel-item4{
     width: 400px;
     margin-top: 100px;
-    margin-left: 50px;
   }
   .carousel-item5{
     width: 400px;
     margin-top: 100px;
-    margin-left: 50px;
   }
 }
 
@@ -1314,35 +1310,29 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
-  .carousel-inner{
+  .carousel-item{
     width: 1000px;
     margin-top: 100px;
-    margin-left: 225px;
   }
   .carousel-item1{
     width: 1000px;
     margin-top: 100px;
-    margin-left: 50px;
   }
   .carousel-item2{
     width: 1000px;
     margin-top: 100px;
-    margin-left: 50px;
   }
   .carousel-item3{
     margin-top: 100px;
-    margin-left: 50px;
     width: 400px;
   }
   .carousel-item4{
     width: 1000px;
     margin-top: 100px;
-    margin-left: 50px;
   }
   .carousel-item5{
     width: 1000px;
     margin-top: 100px;
-    margin-left: 50px;
   }
   .video{
     width : 1000px;
