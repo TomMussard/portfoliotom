@@ -1300,7 +1300,7 @@ img {
   .carousel-item3{
     margin-top: 100px;
     margin-left: 50px;
-    width: 1000px;
+    width: 400px;
   }
   .carousel-item4{
     width: 1000px;
@@ -1311,6 +1311,9 @@ img {
     width: 1000px;
     margin-top: 100px;
     margin-left: 50px;
+  }
+  .video{
+    width : 1000px;
   }
 }
 
