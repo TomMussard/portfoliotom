@@ -1043,6 +1043,9 @@ img {
   .testimonial__data, .testimonial__description {
     text-align: center;
   }
+  .carousel-item1{
+    margin-left: 10px;
+  }
 }
 
 /* For medium devices */
