@@ -1251,5 +1251,10 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+  .carousel-item1{
+    width: 2000px;
+    margin-top: 100px;
+    margin-left: 250px;
+  }
 }
 
