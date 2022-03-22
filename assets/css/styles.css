@@ -89,6 +89,150 @@ body.dark-theme {
   color: var(--first-color);
 }
 
+
+/*==================== DEBUT NOUVEAU CODE ====================*/
+
+.global {
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+  max-width: 936px;
+}
+
+.titre {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.titre h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.titre h3 {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.titre p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.sous-titre {
+  margin-top: 17px;
+}
+
+.carouselle-image {
+  text-align: center;
+  padding: 50px;
+  position: static;
+  object-fit: cover;
+  width: 100%;
+  border: 0px;
+  /* border: 1px solid #ccc; */
+  background: none;
+  display: block;
+  border-radius: 10px;
+}
+
+.carouselle-image .interieur {
+  border: none;
+  background: none;
+}
+
+.carouselle-image .image {
+  text-align: center;
+  width: 1000px;
+  border-radius: 7px;
+}
+
+.carouselle-image h4 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.carouselle-image p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.carouselle-image video {
+  text-align: center;
+  width: 834px;
+  border-radius: 7px;
+}
+
+.none-link {
+  cursor: pointer;
+}
+
+.deny-link {
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 870px) {
+
+.global {
+  flex-grow: 1;
+  margin: auto;
+  position: relative;
+  width: auto;
+  max-width: 936px;
+}
+
+.titre {
+  margin-top: 52px;
+  margin-bottom: 71px;
+  padding: 5px;
+}
+
+.titre h1 {
+  font-size: 32px;
+}
+
+.titre h3 {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.carouselle-image {
+  text-align: center;
+  padding: 14px;
+  position: static;
+  object-fit: cover;
+  width: 93%;
+  margin: auto;
+  margin-bottom: 41px;
+  border: 0px;
+  background: none;
+  display: block;
+  border-radius: 10px;
+  padding-bottom: 18px;
+}
+
+.carouselle-image video {
+  text-align: center;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.logoheader {
+  display: none;
+}
+}
+
+/*==================== FIN NOUVEAU CODE ====================*/
+
+
+
+
 /*==================== BASE ====================*/
 * {
   box-sizing: border-box;
@@ -165,6 +309,15 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+}
+
+.logoheader {
+  width: 58px;
+  transition: transform 0.3s;
+}
+
+.logoheader:hover {
+  transform: scale(1.05);
 }
 
 /*==================== NAV ====================*/
@@ -251,6 +404,8 @@ img {
 /* Active link */
 .active-link {
   color: var(--first-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
 }
 
 /* Change background header */
@@ -502,7 +657,7 @@ img {
 }
 
 .skills__js {
-  width: 50%;
+  width: 60%;
 }
 
 .skills__react {
@@ -943,7 +1098,7 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: #fff;
   margin-top: var(--mb-3);
 }
 
