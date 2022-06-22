@@ -68,8 +68,8 @@ body.dark-theme {
   --input-color: hsl(var(--hue-color), 29%, 16%);
   --body-color: hsl(var(--hue-color), 28%, 12%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);  
+  --container-color: #FFF;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -91,12 +91,95 @@ body.dark-theme {
 
 
 /*==================== DEBUT NOUVEAU CODE ====================*/
+
+/*==================== FORMULAIRE ====================*/
+.image {
+  margin-left: -20%;
+}
+section#rendezvous .containerrdv .formulaire {
+  width: 50%;
+
+}
+section#rendezvous .containerrdv .formulaire h3 {
+  font-size: 2em;
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 50px;
+}
+section#rendezvous {
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 15px;
+
+}
+section#rendezvous .containerrdv {
+  height: 540px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: #FFF;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 50px -10px black;
+}
+section#rendezvous .containerrdv .formulaire-image{
+width: 55%;
+}
+section#rendezvous .containerrdv .formulaire-image img{
+  width: 300px;
+  }
+.img10 {
+  margin-left: -20%;
+}
+section#rendezvous .containerrdv .formulaire input.nom-famille,
+section#rendezvous .containerrdv .formulaire input.email {
+
+  width: 40%;
+}
+
+section#rendezvous .containerrdv .formulaire input.numero,
+section#rendezvous .containerrdv .formulaire input.date{
+  width: 42%;
+}
+section#rendezvous .containerrdv .formulaire input.horaire {
+  width: 42%;
+}
+section#rendezvous .containerrdv .formulaire form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section#rendezvous .containerrdv .formulaire button.submit-btn {
+  width: 192px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(206, 68%, 29%);
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 30px;
+  color: white;
+  outline: none;
+}
+section#rendezvous .containerrdv .formulaire input {
+  margin: 10px 0px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(149, 149, 149);
+  transition: 0,2s;
+}
+section#rendezvous .containerrdv .formulaire input:hover {
+  border-bottom: 2px solid hsl(31, 100%, 49%);
+}
+
+
+
+  /*==================== FIN FORMULAIRE ====================*/
 .nav__link{
   margin-left: -10%;
-}
-.qualification__container.container {
-  background-color: hsl(206, 68%, 29%);
-  border: 0px;
 }
 .contact.contact.section{
   margin-top: -7%;
@@ -106,7 +189,7 @@ body.dark-theme {
   margin-top: 0%;
   width: 100%;
   height: 416px;
-  color: #FFF;
+  color: var(--title-color);
 }
 .qualification.section{
   margin-top: -10%;
@@ -232,7 +315,25 @@ body.dark-theme {
 
 @media screen and (max-width: 870px) {
 
-.global {
+  section#rendezvous .containerrdv .formulaire h3{
+    text-align: center;
+    font-size: 20px;
+  }
+  section#rendezvous .containerrdv .formulaire {
+    margin-right: 0px;
+  }
+  section#rendezvous .containerrdv {
+justify-content: center;
+  }
+  .image {
+    display: none;
+  }
+  section#rendezvous .containerrdv .formulaire-image{
+    display: none;
+    }
+
+
+  .global {
   flex-grow: 1;
   margin: auto;
   position: relative;
@@ -280,6 +381,7 @@ body.dark-theme {
   display: none;
 }
 }
+
 
 /*==================== FIN NOUVEAU CODE ====================*/
 
@@ -1229,6 +1331,9 @@ img {
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
+  section#rendezvous .containerrdv .formulaire h3{
+    font-size: 30px;
+  }
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -1318,6 +1423,11 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
+  
+
+  section#rendezvous .containerrdv .formulaire h3{
+    font-size: 30px;
+  }
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -1374,6 +1484,9 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  section#rendezvous .containerrdv .formulaire h3{
+    font-size: 30px;
+  }
   .container {
     margin-left: auto;
     margin-right: auto;
