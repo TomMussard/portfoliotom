@@ -368,6 +368,7 @@ section#rendezvous .containerrdv .formulaire input:hover {
   .about_img{
     width: 150px;
     height: 10px;
+    margin-left: 10%;
   }
   section#rendezvous .containerrdv .formulaire h3{
     text-align: center;
