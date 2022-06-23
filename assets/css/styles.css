@@ -358,6 +358,8 @@ section#rendezvous .containerrdv .formulaire input:hover {
     width: 100%;
   }
   .home__data {
+    margin-left: 30%;
+    display: block;
     text-align: center;
   }
   .home_img {
