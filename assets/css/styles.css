@@ -549,7 +549,8 @@ img {
     width: 80%;
     margin-top: 3%;
     margin-left: 10%;
-    text-align: center;display: block;
+    text-align: center;
+    display: block;
     margin-bottom: 50px;
   }
   .map1 {
@@ -1480,7 +1481,15 @@ img {
 /* For medium devices */
 @media screen and (min-width: 568px) {
   
-
+  .section__subtitle4 {
+    font-size: var(--small-font-size);
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+  }
   section#rendezvous .containerrdv .formulaire h3{
     font-size: 30px;
   }
