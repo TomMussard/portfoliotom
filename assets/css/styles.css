@@ -339,7 +339,9 @@ section#rendezvous .containerrdv .formulaire input:hover {
 
 @media screen and (max-width: 800px) {
 
-  .home__scroll {
+  #about.about.section {
+    margin-top: 10px;
+  }.home__scroll {
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -376,7 +378,7 @@ section#rendezvous .containerrdv .formulaire input:hover {
     margin-left: 30%;
     display: block;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .home_img {
     display: none;
