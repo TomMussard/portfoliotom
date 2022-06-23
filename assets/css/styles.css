@@ -536,7 +536,8 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .home__img {
+  
+  img {
     display: none;
   }
   .nav__menu {
