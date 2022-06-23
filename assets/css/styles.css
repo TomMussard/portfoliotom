@@ -339,40 +339,6 @@ section#rendezvous .containerrdv .formulaire input:hover {
 
 @media screen and (max-width: 800px) {
 
-  .nav__list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-  }
-  
-  .nav__link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: var(--small-font-size);
-    color: var(--title-color);
-    font-weight: var(--font-medium);
-  }
-  
-  .nav__link:hover {
-    color: var(--first-color);
-  }
-  
-  .nav__icon {
-    font-size: 1.2rem;
-  }
-  
-  .nav__close {
-    position: absolute;
-    right: 1.3rem;
-    bottom: .5rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: var(--first-color);
-  }
-  
-  .nav__close:hover {
-    color: var(--first-color-alt);
-  }
   .home__scroll {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -385,10 +351,6 @@ section#rendezvous .containerrdv .formulaire input:hover {
     text-align: center;
     display: block;
     margin-bottom: 50px;
-  }
-  .nav__list {
-    display: flex;
-    column-gap: 4rem;
   }
   .map1 {
     width: 100%;
