@@ -361,9 +361,8 @@ section#rendezvous .containerrdv .formulaire input:hover {
     margin-left: 0%;
     text-align: center;
   }
-  img {
-    width: 50%;
-    height: 50%;
+  .home_img {
+    display: none;
   }
   section#rendezvous .containerrdv .formulaire h3{
     text-align: center;
