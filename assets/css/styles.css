@@ -346,7 +346,7 @@ section#rendezvous .containerrdv .formulaire input:hover {
   }
   .nav__list {
     display: flex;
-    column-gap: 2rem;
+    column-gap: 4rem;
   }
   .map1 {
     width: 100%;
