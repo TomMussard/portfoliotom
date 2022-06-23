@@ -57,6 +57,9 @@
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
   }
+  .home__data {
+    margin-left: -153%;
+  }
 }
 
 /*========== Variables Dark theme ==========*/
@@ -1737,6 +1740,9 @@ img {
   .main,
   .footer__container {
     padding: 0;
+  }
+  .home__data {
+    margin-left: -153%;
   }
   .home__blob {
     width: 320px;
