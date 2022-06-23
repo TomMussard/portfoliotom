@@ -64,6 +64,10 @@
     display: flex;
     column-gap: 4rem;
   }
+  .home__scroll {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 /*========== Variables Dark theme ==========*/
