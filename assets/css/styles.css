@@ -60,6 +60,10 @@
   .home__data {
     margin-left: -153%;
   }
+  .nav__list {
+    display: flex;
+    column-gap: 4rem;
+  }
 }
 
 /*========== Variables Dark theme ==========*/
