@@ -131,7 +131,7 @@ section#rendezvous .containerrdv {
   align-items: center;
   flex-direction: row-reverse;
   background-color: #FFF;
-  padding: 10px;
+  padding: 40px;
   border-radius: 15px;
   box-shadow: 0px 10px 50px -10px black;
 }
