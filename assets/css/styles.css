@@ -331,6 +331,9 @@ section#rendezvous .containerrdv .formulaire input:hover {
 
 @media screen and (max-width: 800px) {
 
+  .home__scroll {
+    margin-top: 20px;
+  }
   .section__subtitle4 {
     font-size: var(--small-font-size);
     width: 80%;
