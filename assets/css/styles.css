@@ -1743,6 +1743,10 @@ img {
   }
   .home__data {
     margin-left: -153%;
+    margin-bottom: 50px;
+  }
+  .nav__list {
+    column-gap: 0;
   }
   .home__blob {
     width: 320px;
