@@ -328,9 +328,6 @@ section#rendezvous .containerrdv .formulaire input:hover {
 
 @media screen and (max-width: 870px) {
 
-  #home.home.section {
-    margin-left: 0%;
-  }
   .section__subtitle4 {
     font-size: var(--small-font-size);
     width: 80%;
@@ -342,16 +339,16 @@ section#rendezvous .containerrdv .formulaire input:hover {
   }
   .map1 {
     width: 100%;
-    height: 500px;
+    height: 300px;
     margin-top: 50px;
   }
   .map2{
     width: 100%;
-    height: 500px;
+    height: 300px;
     margin-bottom: 50px;
   }
   .qualificationmap {
-  margin-top: 100px;
+  margin-top: 300px;
   }
   .section__subtitle {
     margin-left: 30%;
@@ -363,13 +360,6 @@ section#rendezvous .containerrdv .formulaire input:hover {
   .home__data {
     margin-left: 0%;
     text-align: center;
-  }
-  .about__img{
-    width: 300px;
-  }
-
-    .home_img {
-    display: none;
   }
   img {
     display: none;
