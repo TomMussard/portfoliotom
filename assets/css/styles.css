@@ -340,6 +340,12 @@ section#rendezvous .containerrdv .formulaire input:hover {
 
 @media screen and (max-width: 800px) {
 
+  .about__img {
+    width: 178%;
+    height: 59%;
+    margin-top: -18%;
+    margin-left: -46%;
+  }
   .nav__list {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -352,7 +358,7 @@ section#rendezvous .containerrdv .formulaire input:hover {
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
-    margin-left: 15px;
+    margin-left: 20px;
   }
   /* Active link */
 .active-link {
