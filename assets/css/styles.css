@@ -633,6 +633,27 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .nav__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-left: 15px;
+  }
+  .nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-left: 20px;
+  }
+  /* Active link */
+.active-link {
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  margin-left: 15px;
+}
   .about__img {
     width: 178%;
     height: 59%;
@@ -1645,13 +1666,34 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .nav__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-left: 15px;
+  }
+  .nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-left: 20px;
+  }
+  /* Active link */
+.active-link {
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  margin-left: 15px;
+}
   .about__img {
     width: 178%;
     height: 59%;
     margin-top: -18%;
     margin-left: -46%;
   }
-  
+
   section#rendezvous .containerrdv .formulaire h3{
     font-size: 30px;
   }
