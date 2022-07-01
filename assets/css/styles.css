@@ -340,6 +340,11 @@ section#rendezvous .containerrdv .formulaire input:hover {
 
 @media screen and (max-width: 800px) {
 
+  .nav__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-left: 15px;
+  }
   .nav__link {
     display: flex;
     flex-direction: column;
