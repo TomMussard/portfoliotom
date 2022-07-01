@@ -633,6 +633,12 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .about__img {
+    width: 178%;
+    height: 59%;
+    margin-top: -18%;
+    margin-left: -46%;
+  }
   .section__subtitle4 {
     font-size: var(--small-font-size);
     width: 80%;
@@ -1639,6 +1645,13 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .about__img {
+    width: 178%;
+    height: 59%;
+    margin-top: -18%;
+    margin-left: -46%;
+  }
+  
   section#rendezvous .containerrdv .formulaire h3{
     font-size: 30px;
   }
